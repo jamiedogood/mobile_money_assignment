@@ -1,0 +1,15 @@
+{
+ "case": "Q7-C-b4",
+ "params": {
+  "account": 206978,
+  "destination": 6573,
+  "start": 1788853500,
+  "end": 1788857100,
+  "bound": 4
+ },
+ "status": "MATCH",
+ "path_status": "no route",
+ "pg": [],
+ "neo": [],
+ "q7_path": null
+}

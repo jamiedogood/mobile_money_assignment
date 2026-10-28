@@ -1,0 +1,60 @@
+{
+  "generator_sha256": "2ea0e59d2b7b987d84a3d151bd9d1ad7b3052bfbc25abf1466c8e94467e9455a",
+  "total_seconds": 194.74,
+  "streams": [
+    {
+      "stream": "customers",
+      "consumed": 228000,
+      "written": 228000,
+      "expected": 228000,
+      "match": true,
+      "seconds": 0.73,
+      "csv_bytes": 3581915,
+      "csv_gb": 0.004
+    },
+    {
+      "stream": "accounts",
+      "consumed": 248000,
+      "written": 248000,
+      "expected": 248000,
+      "match": true,
+      "seconds": 1.22,
+      "csv_bytes": 5212713,
+      "csv_gb": 0.005
+    },
+    {
+      "stream": "devices",
+      "consumed": 228600,
+      "written": 228600,
+      "expected": 228600,
+      "match": true,
+      "seconds": 0.87,
+      "csv_bytes": 3554518,
+      "csv_gb": 0.004
+    },
+    {
+      "stream": "account_devices",
+      "consumed": 285600,
+      "written": 285600,
+      "expected": 285600,
+      "match": true,
+      "seconds": 1.29,
+      "csv_bytes": 6284489,
+      "csv_gb": 0.006
+    },
+    {
+      "stream": "transfers",
+      "consumed": 20003300,
+      "written": 20003300,
+      "expected": 20003300,
+      "match": true,
+      "seconds": 190.61,
+      "csv_bytes": 780197845,
+      "csv_gb": 0.78,
+      "transfer_count": 20003300,
+      "earliest_occurred_at": 1788235200,
+      "latest_occurred_at": 1790798399,
+      "sum_amount_rwf": 231482327870
+    }
+  ]
+}

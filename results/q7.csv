@@ -1,0 +1,13 @@
+set,bound,account,destination,pg_hops,neo_hops,match,path_checks_ok
+A,4,998,24755,3,3,True,True
+A,6,998,24755,3,3,True,True
+B,4,147228,186823,,,True,
+B,6,147228,186823,5,5,True,True
+C,4,206978,6573,,,True,
+C,6,206978,6573,5,5,True,True
+D,4,237998,21755,3,3,True,True
+D,6,237998,21755,3,3,True,True
+E,4,144228,183823,,,True,
+E,6,144228,183823,5,5,True,True
+F,4,203978,3573,,,True,
+F,6,203978,3573,5,5,True,True

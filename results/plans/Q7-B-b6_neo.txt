@@ -1,0 +1,10 @@
+rows returned: 1   planner: COST   runtime: SLOTTED   global memory: 60416   server time to result: 70 ms
++ProduceResults@neo4j  rows=1 dbHits=0 pageCacheHits=0 pageCacheMisses=0  | hops
+  +Projection@neo4j  rows=1 dbHits=0 pageCacheHits=0 pageCacheMisses=0  | length((a)-[anon_7*]->(b)) AS hops
+    +ShortestPath@neo4j  rows=1 dbHits=20677 pageCacheHits=0 pageCacheMisses=0  | anon_13 = (a)-[anon_7:TRANSFER*..6]->(b) WHERE all(anon_11 IN nodes(anon_13) WHERE anon_11:Account) AND all(anon_12 IN relationships(anon_13) WHERE endNode(anon_12).role = $autostring_0)
+      +CartesianProduct@neo4j  rows=1 dbHits=0 pageCacheHits=0 pageCacheMisses=0
+        +Filter@neo4j  rows=1 dbHits=1 pageCacheHits=0 pageCacheMisses=0  | a.role = $autostring_1
+          +NodeUniqueIndexSeek@neo4j  rows=1 dbHits=2 pageCacheHits=0 pageCacheMisses=0  | UNIQUE a:Account(account_id) WHERE account_id = $account
+        +Filter@neo4j  rows=1 dbHits=1 pageCacheHits=0 pageCacheMisses=0  | b.role = $autostring_0
+          +NodeUniqueIndexSeek@neo4j  rows=1 dbHits=2 pageCacheHits=0 pageCacheMisses=0  | UNIQUE b:Account(account_id) WHERE account_id = $destination
+TOTAL dbHits: 20,683

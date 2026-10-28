@@ -1,0 +1,9 @@
+engine,workload,clients,throughput_rps,median_ms,p95_ms,errors,timeouts,all_correct
+neo,Q4-d10,1,244.596,3.09,8.01,0,0,True
+neo,Q4-d10,4,763.826,3.46,10.5,0,0,True
+neo,Q4-d10,8,944.475,6.3,17.63,0,0,True
+neo,Q4-d10,16,1037.888,10.7,39.32,0,0,True
+neo,Q7-b6,1,218.707,4.28,7.67,0,0,True
+neo,Q7-b6,4,546.116,7.13,13.13,0,0,True
+neo,Q7-b6,8,689.481,10.58,21.83,0,0,True
+neo,Q7-b6,16,675.144,20.34,54.49,0,0,True

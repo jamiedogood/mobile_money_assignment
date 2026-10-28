@@ -1,0 +1,11 @@
+rows returned: 5   planner: COST   runtime: SLOTTED   global memory: 28880   server time to result: 57 ms
++ProduceResults@neo4j  rows=5 dbHits=0 pageCacheHits=0 pageCacheMisses=0  | region, accounts
+  +Sort@neo4j  rows=5 dbHits=0 pageCacheHits=0 pageCacheMisses=0  | region ASC
+    +EagerAggregation@neo4j  rows=5 dbHits=228 pageCacheHits=0 pageCacheMisses=0  | c.region AS region, count(b) AS accounts
+      +Filter@neo4j  rows=228 dbHits=228 pageCacheHits=0 pageCacheMisses=0  | c:Customer
+        +Expand(All)@neo4j  rows=228 dbHits=1140 pageCacheHits=0 pageCacheMisses=0  | (b)<-[anon_1:OWNS]-(c)
+          +Projection@neo4j  rows=228 dbHits=0 pageCacheHits=0 pageCacheMisses=0  | b
+            +Filter@neo4j  rows=228 dbHits=453 pageCacheHits=0 pageCacheMisses=0  | NOT b = a AND b:Account
+              +VarLengthExpand(Pruning,BFS,All)@neo4j  rows=453 dbHits=1885 pageCacheHits=0 pageCacheMisses=0  | (a)-[:OWNS|USED_DEVICE*..10]-(b) 
+                +NodeUniqueIndexSeek@neo4j  rows=1 dbHits=2 pageCacheHits=0 pageCacheMisses=0  | UNIQUE a:Account(account_id) WHERE account_id = $account
+TOTAL dbHits: 3,936

@@ -1,0 +1,14 @@
+{
+ "case": "Q6-F",
+ "params": {
+  "account": 203978,
+  "destination": 3573,
+  "start": 1788853500,
+  "end": 1788857100
+ },
+ "status": "MATCH",
+ "path_status": "",
+ "pg": [],
+ "neo": [],
+ "q7_path": null
+}

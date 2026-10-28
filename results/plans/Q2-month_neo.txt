@@ -1,0 +1,8 @@
+rows returned: 30   planner: COST   runtime: SLOTTED   global memory: 10808   server time to result: 47615 ms
++ProduceResults@neo4j  rows=30 dbHits=0 pageCacheHits=0 pageCacheMisses=0  | day, transfers, total_rwf
+  +Sort@neo4j  rows=30 dbHits=0 pageCacheHits=0 pageCacheMisses=0  | day ASC
+    +EagerAggregation@neo4j  rows=30 dbHits=0 pageCacheHits=0 pageCacheMisses=0  | day, count(*) AS transfers, sum(amount) AS total_rwf
+      +Projection@neo4j  rows=20003300 dbHits=40006600 pageCacheHits=0 pageCacheMisses=0  | date(datetime({epochSeconds: cache[t.occurred_at], timezone: $autostring_0})) AS day, cache[t.amount_rwf] AS amount
+        +CacheProperties@neo4j  rows=20003300 dbHits=40006600 pageCacheHits=0 pageCacheMisses=0  | cache[t.occurred_at], cache[t.amount_rwf]
+          +DirectedRelationshipTypeScan@neo4j  rows=20003300 dbHits=20003301 pageCacheHits=0 pageCacheMisses=0  | (anon_0)-[t:TRANSFER]->(anon_1)
+TOTAL dbHits: 100,016,501

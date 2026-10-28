@@ -1,0 +1,10 @@
+# Secrets: only .env.example (placeholders) is committed
+.env
+
+# Large local data: captured CSVs and temporary Neo4j import copies stay local
+data/*.csv
+import/
+
+# Python
+__pycache__/
+*.pyc

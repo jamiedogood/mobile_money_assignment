@@ -1,0 +1,54 @@
+{
+ "case": "Q4-C-d10",
+ "params": {
+  "account": 206978,
+  "depth": 10
+ },
+ "status": "MATCH",
+ "path_status": "",
+ "pg": [
+  [
+   "Eastern",
+   278
+  ],
+  [
+   "Kigali",
+   293
+  ],
+  [
+   "Northern",
+   295
+  ],
+  [
+   "Southern",
+   294
+  ],
+  [
+   "Western",
+   273
+  ]
+ ],
+ "neo": [
+  [
+   "Eastern",
+   278
+  ],
+  [
+   "Kigali",
+   293
+  ],
+  [
+   "Northern",
+   295
+  ],
+  [
+   "Southern",
+   294
+  ],
+  [
+   "Western",
+   273
+  ]
+ ],
+ "q7_path": null
+}

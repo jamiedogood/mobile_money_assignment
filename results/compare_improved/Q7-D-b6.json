@@ -1,0 +1,35 @@
+{
+ "case": "Q7-D-b6",
+ "params": {
+  "account": 237998,
+  "destination": 21755,
+  "start": 1788680700,
+  "end": 1788684300,
+  "bound": 6
+ },
+ "status": "MATCH",
+ "path_status": "valid",
+ "pg": [
+  [
+   3
+  ]
+ ],
+ "neo": [
+  [
+   3
+  ]
+ ],
+ "q7_path": {
+  "accounts": [
+   237998,
+   5917,
+   13836,
+   21755
+  ],
+  "transfer_ids": [
+   20001651,
+   20001652,
+   20001653
+  ]
+ }
+}

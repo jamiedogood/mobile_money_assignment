@@ -1,0 +1,484 @@
+{
+  "A": {
+    "8": {
+      "pg": {
+        "Eastern": 30,
+        "Kigali": 33,
+        "Northern": 37,
+        "Southern": 45,
+        "Western": 30
+      },
+      "neo": {
+        "Eastern": 30,
+        "Kigali": 33,
+        "Northern": 37,
+        "Southern": 45,
+        "Western": 30
+      },
+      "total": 175,
+      "match": true,
+      "pg_seconds": 0.11,
+      "neo_seconds": 1.23
+    },
+    "10": {
+      "pg": {
+        "Eastern": 36,
+        "Kigali": 35,
+        "Northern": 37,
+        "Southern": 45,
+        "Western": 34
+      },
+      "neo": {
+        "Eastern": 36,
+        "Kigali": 35,
+        "Northern": 37,
+        "Southern": 45,
+        "Western": 34
+      },
+      "total": 187,
+      "match": true,
+      "pg_seconds": 0.02,
+      "neo_seconds": 0.3
+    },
+    "4": {
+      "pg": {
+        "Kigali": 3,
+        "Northern": 7
+      },
+      "neo": {
+        "Kigali": 3,
+        "Northern": 7
+      },
+      "total": 10,
+      "match": true,
+      "pg_seconds": 0.09,
+      "neo_seconds": 1.42
+    },
+    "6": {
+      "pg": {
+        "Eastern": 6,
+        "Kigali": 9,
+        "Northern": 13,
+        "Southern": 9,
+        "Western": 6
+      },
+      "neo": {
+        "Eastern": 6,
+        "Kigali": 9,
+        "Northern": 13,
+        "Southern": 9,
+        "Western": 6
+      },
+      "total": 43,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.42
+    }
+  },
+  "B": {
+    "8": {
+      "pg": {
+        "Eastern": 40,
+        "Kigali": 33,
+        "Northern": 35,
+        "Southern": 47,
+        "Western": 33
+      },
+      "neo": {
+        "Eastern": 40,
+        "Kigali": 33,
+        "Northern": 35,
+        "Southern": 47,
+        "Western": 33
+      },
+      "total": 188,
+      "match": true,
+      "pg_seconds": 0.07,
+      "neo_seconds": 0.07
+    },
+    "10": {
+      "pg": {
+        "Eastern": 45,
+        "Kigali": 41,
+        "Northern": 46,
+        "Southern": 57,
+        "Western": 39
+      },
+      "neo": {
+        "Eastern": 45,
+        "Kigali": 41,
+        "Northern": 46,
+        "Southern": 57,
+        "Western": 39
+      },
+      "total": 228,
+      "match": true,
+      "pg_seconds": 0.02,
+      "neo_seconds": 0.02
+    },
+    "4": {
+      "pg": {
+        "Eastern": 13,
+        "Kigali": 6,
+        "Northern": 7,
+        "Southern": 9,
+        "Western": 11
+      },
+      "neo": {
+        "Eastern": 13,
+        "Kigali": 6,
+        "Northern": 7,
+        "Southern": 9,
+        "Western": 11
+      },
+      "total": 46,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.05
+    },
+    "6": {
+      "pg": {
+        "Eastern": 37,
+        "Kigali": 30,
+        "Northern": 35,
+        "Southern": 45,
+        "Western": 31
+      },
+      "neo": {
+        "Eastern": 37,
+        "Kigali": 30,
+        "Northern": 35,
+        "Southern": 45,
+        "Western": 31
+      },
+      "total": 178,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.01
+    }
+  },
+  "C": {
+    "8": {
+      "pg": {
+        "Eastern": 151,
+        "Kigali": 172,
+        "Northern": 167,
+        "Southern": 186,
+        "Western": 156
+      },
+      "neo": {
+        "Eastern": 151,
+        "Kigali": 172,
+        "Northern": 167,
+        "Southern": 186,
+        "Western": 156
+      },
+      "total": 832,
+      "match": true,
+      "pg_seconds": 0.28,
+      "neo_seconds": 0.33
+    },
+    "10": {
+      "pg": {
+        "Eastern": 278,
+        "Kigali": 293,
+        "Northern": 295,
+        "Southern": 294,
+        "Western": 273
+      },
+      "neo": {
+        "Eastern": 278,
+        "Kigali": 293,
+        "Northern": 295,
+        "Southern": 294,
+        "Western": 273
+      },
+      "total": 1433,
+      "match": true,
+      "pg_seconds": 0.12,
+      "neo_seconds": 0.08
+    },
+    "4": {
+      "pg": {
+        "Eastern": 23,
+        "Kigali": 24,
+        "Northern": 29,
+        "Southern": 43,
+        "Western": 27
+      },
+      "neo": {
+        "Eastern": 23,
+        "Kigali": 24,
+        "Northern": 29,
+        "Southern": 43,
+        "Western": 27
+      },
+      "total": 146,
+      "match": true,
+      "pg_seconds": 0.04,
+      "neo_seconds": 0.06
+    },
+    "6": {
+      "pg": {
+        "Eastern": 82,
+        "Kigali": 90,
+        "Northern": 97,
+        "Southern": 121,
+        "Western": 93
+      },
+      "neo": {
+        "Eastern": 82,
+        "Kigali": 90,
+        "Northern": 97,
+        "Southern": 121,
+        "Western": 93
+      },
+      "total": 483,
+      "match": true,
+      "pg_seconds": 0.02,
+      "neo_seconds": 0.02
+    }
+  },
+  "D": {
+    "8": {
+      "pg": {
+        "Eastern": 32,
+        "Kigali": 50,
+        "Northern": 31,
+        "Southern": 30,
+        "Western": 37
+      },
+      "neo": {
+        "Eastern": 32,
+        "Kigali": 50,
+        "Northern": 31,
+        "Southern": 30,
+        "Western": 37
+      },
+      "total": 180,
+      "match": true,
+      "pg_seconds": 0.05,
+      "neo_seconds": 0.13
+    },
+    "10": {
+      "pg": {
+        "Eastern": 34,
+        "Kigali": 50,
+        "Northern": 37,
+        "Southern": 34,
+        "Western": 37
+      },
+      "neo": {
+        "Eastern": 34,
+        "Kigali": 50,
+        "Northern": 37,
+        "Southern": 34,
+        "Western": 37
+      },
+      "total": 192,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.01
+    },
+    "4": {
+      "pg": {
+        "Eastern": 2,
+        "Northern": 1,
+        "Western": 7
+      },
+      "neo": {
+        "Eastern": 2,
+        "Northern": 1,
+        "Western": 7
+      },
+      "total": 10,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.01
+    },
+    "6": {
+      "pg": {
+        "Eastern": 8,
+        "Kigali": 10,
+        "Northern": 7,
+        "Southern": 6,
+        "Western": 13
+      },
+      "neo": {
+        "Eastern": 8,
+        "Kigali": 10,
+        "Northern": 7,
+        "Southern": 6,
+        "Western": 13
+      },
+      "total": 44,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.02
+    }
+  },
+  "E": {
+    "8": {
+      "pg": {
+        "Eastern": 33,
+        "Kigali": 52,
+        "Northern": 40,
+        "Southern": 33,
+        "Western": 35
+      },
+      "neo": {
+        "Eastern": 33,
+        "Kigali": 52,
+        "Northern": 40,
+        "Southern": 33,
+        "Western": 35
+      },
+      "total": 193,
+      "match": true,
+      "pg_seconds": 0.04,
+      "neo_seconds": 0.03
+    },
+    "10": {
+      "pg": {
+        "Eastern": 40,
+        "Kigali": 62,
+        "Northern": 45,
+        "Southern": 39,
+        "Western": 44
+      },
+      "neo": {
+        "Eastern": 40,
+        "Kigali": 62,
+        "Northern": 45,
+        "Southern": 39,
+        "Western": 44
+      },
+      "total": 230,
+      "match": true,
+      "pg_seconds": 0.02,
+      "neo_seconds": 0.01
+    },
+    "4": {
+      "pg": {
+        "Eastern": 6,
+        "Kigali": 10,
+        "Northern": 13,
+        "Southern": 11,
+        "Western": 7
+      },
+      "neo": {
+        "Eastern": 6,
+        "Kigali": 10,
+        "Northern": 13,
+        "Southern": 11,
+        "Western": 7
+      },
+      "total": 47,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.03
+    },
+    "6": {
+      "pg": {
+        "Eastern": 30,
+        "Kigali": 50,
+        "Northern": 37,
+        "Southern": 31,
+        "Western": 35
+      },
+      "neo": {
+        "Eastern": 30,
+        "Kigali": 50,
+        "Northern": 37,
+        "Southern": 31,
+        "Western": 35
+      },
+      "total": 183,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.01
+    }
+  },
+  "F": {
+    "8": {
+      "pg": {
+        "Eastern": 161,
+        "Kigali": 190,
+        "Northern": 164,
+        "Southern": 174,
+        "Western": 148
+      },
+      "neo": {
+        "Eastern": 161,
+        "Kigali": 190,
+        "Northern": 164,
+        "Southern": 174,
+        "Western": 148
+      },
+      "total": 837,
+      "match": true,
+      "pg_seconds": 0.06,
+      "neo_seconds": 0.04
+    },
+    "10": {
+      "pg": {
+        "Eastern": 278,
+        "Kigali": 302,
+        "Northern": 295,
+        "Southern": 288,
+        "Western": 263
+      },
+      "neo": {
+        "Eastern": 278,
+        "Kigali": 302,
+        "Northern": 295,
+        "Southern": 288,
+        "Western": 263
+      },
+      "total": 1426,
+      "match": true,
+      "pg_seconds": 0.06,
+      "neo_seconds": 0.05
+    },
+    "4": {
+      "pg": {
+        "Eastern": 25,
+        "Kigali": 44,
+        "Northern": 29,
+        "Southern": 27,
+        "Western": 22
+      },
+      "neo": {
+        "Eastern": 25,
+        "Kigali": 44,
+        "Northern": 29,
+        "Southern": 27,
+        "Western": 22
+      },
+      "total": 147,
+      "match": true,
+      "pg_seconds": 0.02,
+      "neo_seconds": 0.03
+    },
+    "6": {
+      "pg": {
+        "Eastern": 93,
+        "Kigali": 125,
+        "Northern": 92,
+        "Southern": 96,
+        "Western": 82
+      },
+      "neo": {
+        "Eastern": 93,
+        "Kigali": 125,
+        "Northern": 92,
+        "Southern": 96,
+        "Western": 82
+      },
+      "total": 488,
+      "match": true,
+      "pg_seconds": 0.01,
+      "neo_seconds": 0.03
+    }
+  }
+}
